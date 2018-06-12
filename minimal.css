@@ -1,20 +1,20 @@
 /* for my reference
-   rawgit urls (needed on svgz files)
-   development: https://rawgit.com/vrillusions/gamepadviewer-css-xboxmini/master/images/abxy.svgz
-   production: https://cdn.rawgit.com/vrillusions/gamepadviewer-css-xboxmini/a0b5f33e/images/abxy.svgz
+   rawgit urls (needed on svg files (originally svgz files but those caused issues))
+   development: https://rawgit.com/vrillusions/gamepadviewer-css-xboxmini/master/images/abxy.svg
+   production: https://cdn.rawgit.com/vrillusions/gamepadviewer-css-xboxmini/a0b5f33e/images/abxy.svg
    The tag (a0b5f33e in this case) must be changed if file changed
    */
    
 /*BEGIN Xbox One Controller Styling*/
 .controller.custom{
-    /* background: url(https://cdn.rawgit.com/vrillusions/gamepadviewer-css-xboxmini/a0b5f33e/images/base.svgz); */
+    /* background: url(https://cdn.rawgit.com/vrillusions/gamepadviewer-css-xboxmini/a0b5f33e/images/base.svg); */
     height: 630px;
     width: 750px;
     margin-left: -375px;
     margin-top: -285px;
 }
 .custom.white{
-    background: url(https://cdn.rawgit.com/vrillusions/gamepadviewer-css-xboxmini/a0b5f33e/images/base-white.svgz);
+    background: url(https://cdn.rawgit.com/vrillusions/gamepadviewer-css-xboxmini/a0b5f33e/images/base-white.svg);
 }
 .custom.disconnected {
     
@@ -35,7 +35,7 @@
 .custom .trigger{
     width: 88px;
     height: 121px;
-    background: url(https://cdn.rawgit.com/vrillusions/gamepadviewer-css-xboxmini/a0b5f33e/images/trigger.svgz);
+    background: url(https://cdn.rawgit.com/vrillusions/gamepadviewer-css-xboxmini/a0b5f33e/images/trigger.svg);
     opacity: 0;
 }
 .custom .trigger.left{
@@ -49,7 +49,7 @@
 .custom .bumper{
     width: 170px;
     height: 61px;
-    background: url(https://cdn.rawgit.com/vrillusions/gamepadviewer-css-xboxmini/a0b5f33e/images/bumper.svgz);
+    background: url(https://cdn.rawgit.com/vrillusions/gamepadviewer-css-xboxmini/a0b5f33e/images/bumper.svg);
     opacity: 0;
 }
 .custom .bumpers{
@@ -73,7 +73,7 @@
 }
 .custom .quadrant{
     position: absolute;
-    /* background: url(https://cdn.rawgit.com/vrillusions/gamepadviewer-css-xboxmini/a0b5f33e/images/quadrant.svgz); */
+    /* background: url(https://cdn.rawgit.com/vrillusions/gamepadviewer-css-xboxmini/a0b5f33e/images/quadrant.svg); */
     height: 45px;
     width: 45px;
     top: 258px;
@@ -105,7 +105,7 @@
     display: none;
 }
 .custom .back, .custom .start{
-    background: url(https://cdn.rawgit.com/vrillusions/gamepadviewer-css-xboxmini/a0b5f33e/images/start-select.svgz);
+    background: url(https://cdn.rawgit.com/vrillusions/gamepadviewer-css-xboxmini/a0b5f33e/images/start-select.svg);
     width: 33px;
     height: 33px;
     opacity: 0;
@@ -131,7 +131,7 @@
 }
 .custom .button{
     position: absolute;
-    background: url(https://cdn.rawgit.com/vrillusions/gamepadviewer-css-xboxmini/a0b5f33e/images/abxy.svgz);
+    background: url(https://cdn.rawgit.com/vrillusions/gamepadviewer-css-xboxmini/a0b5f33e/images/abxy.svg);
     width: 48px;
     height: 48px;
 }
@@ -166,14 +166,14 @@
     height: 139px;
     top: 239px;
     left: 224px;
-    background: url(https://cdn.rawgit.com/vrillusions/gamepadviewer-css-xboxmini/a0b5f33e/images/base.svgz);*/;
+    background: url(https://cdn.rawgit.com/vrillusions/gamepadviewer-css-xboxmini/a0b5f33e/images/base.svg);*/;
     background-position: -117px -214px;
     -webkit-clip-path: circle(50% at center);
     clip-path: circle(50% at center);
 }
 .custom .stick{
     position: absolute;
-    background: url(https://cdn.rawgit.com/vrillusions/gamepadviewer-css-xboxmini/a0b5f33e/images/stick.svgz);
+    background: url(https://cdn.rawgit.com/vrillusions/gamepadviewer-css-xboxmini/a0b5f33e/images/stick.svg);
     /* black stick - background-position: -85px 0; */
     background-position: 0;
     height: 83px;
@@ -200,7 +200,7 @@
     display: none;
 }
 .custom .face{
-    background: url(https://cdn.rawgit.com/vrillusions/gamepadviewer-css-xboxmini/a0b5f33e/images/dpad.svgz);
+    background: url(https://cdn.rawgit.com/vrillusions/gamepadviewer-css-xboxmini/a0b5f33e/images/dpad.svg);
     position: absolute;
     opacity: 0;
 }
