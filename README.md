@@ -6,3 +6,4 @@ Other people had this but they were referencing a bunch of external sources that
 ## Usage
 
 - regular minimal css (I turn off the curving of stick as well): https://gamepadviewer.com/?p=1&nocurve=1&css=https://vrillusions.github.io/gamepadviewer-css-xboxmini/minimal.css 
+- minimal css without triggers (I turn off the curving of stick as well): https://gamepadviewer.com/?p=1&nocurve=1&css=https://vrillusions.github.io/gamepadviewer-css-xboxmini/minimal-notrigger.css 
