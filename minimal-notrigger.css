@@ -1,21 +1,22 @@
 /* for my reference
-   rawgit urls (needed on svg files (originally svgz files but those caused issues))
-   development: https://rawgit.com/vrillusions/gamepadviewer-css-xboxmini/master/images/abxy.svg
-   production: https://cdn.rawgit.com/vrillusions/gamepadviewer-css-xboxmini/0d81e4f/images/abxy.svg
+   -- this no longer applies since I'm using svg but if I try svgz again I'll need to do this --
+   rawgit urls
+   development: https://rawgit.com/vrillusions/gamepadviewer-css-xboxmini/master/images/abxy.svgz
+   production: https://cdn.rawgit.com/vrillusions/gamepadviewer-css-xboxmini/0d81e4f/images/abxy.svgz
    The tag (0d81e4f in this case) must be changed if file changed and must be a commit ref that contains
    the image.
    */
-   
+
 /*BEGIN Xbox One Controller Styling*/
 .controller.custom{
-    /* background: url(https://cdn.rawgit.com/vrillusions/gamepadviewer-css-xboxmini/0d81e4f/images/base.svg); */
+    /* background: url(https://vrillusions.github.io/gamepadviewer-css-xboxmini/images/base.svg); */
     height: 630px;
     width: 750px;
     margin-left: -375px;
     margin-top: -285px;
 }
 .custom.white{
-    background: url(https://cdn.rawgit.com/vrillusions/gamepadviewer-css-xboxmini/0d81e4f/images/base-white.svg);
+    background: url(https://vrillusions.github.io/gamepadviewer-css-xboxmini/images/base-white.svg);
 }
 .custom.disconnected {
     
@@ -37,7 +38,7 @@
 .custom .trigger{
     width: 88px;
     height: 121px;
-    background: url(https://cdn.rawgit.com/vrillusions/gamepadviewer-css-xboxmini/0d81e4f/images/trigger.svg);
+    background: url(https://vrillusions.github.io/gamepadviewer-css-xboxmini/images/trigger.svg);
     opacity: 0;
 }
 .custom .trigger.left{
@@ -51,16 +52,16 @@
 .custom .bumper{
     width: 170px;
     height: 61px;
-    background: url(https://cdn.rawgit.com/vrillusions/gamepadviewer-css-xboxmini/0d81e4f/images/bumper.svg);
+    background: url(https://vrillusions.github.io/gamepadviewer-css-xboxmini/images/bumper.svg);
     opacity: 0;
 }
 .custom .bumpers{
+    display: none;
     position: absolute;
     width: 536px;
     height: 61px;
     left: 107px;
     top: 129px;
-    display: none;
 }
 .custom .bumper.pressed{
     opacity: 1;
@@ -75,7 +76,7 @@
 }
 .custom .quadrant{
     position: absolute;
-    /* background: url(https://cdn.rawgit.com/vrillusions/gamepadviewer-css-xboxmini/0d81e4f/images/quadrant.svg); */
+    /* background: url(https://vrillusions.github.io/gamepadviewer-css-xboxmini/images/quadrant.svg); */
     height: 45px;
     width: 45px;
     top: 258px;
@@ -99,15 +100,15 @@
     transform: rotate(180deg);
 }
 .custom .arrows{
+    display: none;
     position: absolute;
     width: 141px;
     height: 33px;
     top: 264px;
     left: 306px;
-    display: none;
 }
 .custom .back, .custom .start{
-    background: url(https://cdn.rawgit.com/vrillusions/gamepadviewer-css-xboxmini/0d81e4f/images/start-select.svg);
+    background: url(https://vrillusions.github.io/gamepadviewer-css-xboxmini/images/start-select.svg);
     width: 33px;
     height: 33px;
     opacity: 0;
@@ -133,7 +134,7 @@
 }
 .custom .button{
     position: absolute;
-    background: url(https://cdn.rawgit.com/vrillusions/gamepadviewer-css-xboxmini/0d81e4f/images/abxy.svg);
+    background: url(https://vrillusions.github.io/gamepadviewer-css-xboxmini/images/abxy.svg);
     width: 48px;
     height: 48px;
 }
@@ -165,44 +166,41 @@
 .custom .sticks{
     position: absolute;
     width: 137px;
-    height: 139px;
+    height: 137px;
     top: 239px;
     left: 224px;
-    background: url(https://cdn.rawgit.com/vrillusions/gamepadviewer-css-xboxmini/0d81e4f/images/base.svg);*/;
-    background-position: -117px -214px;
-    -webkit-clip-path: circle(50% at center);
-    clip-path: circle(50% at center);
+    background: url(https://vrillusions.github.io/gamepadviewer-css-xboxmini/images/stickbg.svg);
 }
 .custom .stick{
     position: absolute;
-    background: url(https://cdn.rawgit.com/vrillusions/gamepadviewer-css-xboxmini/0d81e4f/images/stick.svg);
+    background: url(https://vrillusions.github.io/gamepadviewer-css-xboxmini/images/stick.svg);
     /* black stick - background-position: -85px 0; */
     background-position: 0;
     height: 83px;
-    width: 83px;
+    width: 84px;
 }
 .custom .stick.pressed{
     background-position: 0 0;
 }
 .custom .stick.left{
-    top: 24px;
-    left: 27px;
+    top: 27px;
+    left: 26px;
 }
 .custom .stick.right{
+    display: none;
     top: 113px;
     left: 288px;
-    display: none;
 }
 .custom .dpad{
+    display: none;
     position: absolute;
     width: 110px;
     height: 111px;
     top: 345px;
     left: 223px;
-    display: none;
 }
 .custom .face{
-    background: url(https://cdn.rawgit.com/vrillusions/gamepadviewer-css-xboxmini/0d81e4f/images/dpad.svg);
+    background: url(https://vrillusions.github.io/gamepadviewer-css-xboxmini/images/dpad.svg);
     position: absolute;
     opacity: 0;
 }
